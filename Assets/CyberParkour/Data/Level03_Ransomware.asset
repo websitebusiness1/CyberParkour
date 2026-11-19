@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf84ef0badd658cb1919bfedd1784a1, type: 3}
+  m_Name: Level03_Ransomware
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
+  levelNumber: 3
+  threatName: Ransomware
+  levelTitle: The Locked Storage Vault
+  objective: Escape the infected vault and reach the backup gateway.
+  learningSummary: Ransomware encrypts your files and demands payment to unlock them.
+  learningTip: Keep regular offline backups, keep software updated, and avoid unknown attachments. Paying does not guarantee you get your files back.
+  coinValue: 1
+  tokenValue: 5
+  completionBonus: 70
+  parTimeSeconds: 160
+  maxLives: 5
+  requiredTokens: 0
+  requiredCheckpoints: 3
+  requiredChallenges: 0
+  isFinalLevel: 0
+  killY: -12
+  nextSceneName: Level04_Spyware

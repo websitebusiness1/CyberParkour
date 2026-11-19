@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf84ef0badd658cb1919bfedd1784a1, type: 3}
+  m_Name: Level08_Rootkit
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
+  levelNumber: 8
+  threatName: Rootkit
+  levelTitle: The Corrupted System Core
+  objective: Reach the central core, pass the final security check, and restore the system.
+  learningSummary: A rootkit hides deep inside a system to keep an attacker's access secret, which makes it very hard to detect.
+  learningTip: 'Use layered defenses: updates, trusted tools, monitoring and an incident-response plan. If you suspect a rootkit, reinstall from clean media.'
+  coinValue: 1
+  tokenValue: 5
+  completionBonus: 150
+  parTimeSeconds: 220
+  maxLives: 3
+  requiredTokens: 0
+  requiredCheckpoints: 2
+  requiredChallenges: 1
+  isFinalLevel: 1
+  killY: -12
+  nextSceneName: 

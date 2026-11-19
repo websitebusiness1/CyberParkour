@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf84ef0badd658cb1919bfedd1784a1, type: 3}
+  m_Name: Level07_MITM
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
+  levelNumber: 7
+  threatName: Man-in-the-Middle
+  levelTitle: The Intercepted Connection
+  objective: Take the verified route and reach the verified connection without entering the intercepted one.
+  learningSummary: In a man-in-the-middle attack, someone secretly sits between two parties and can read or change what they send.
+  learningTip: Look for HTTPS and a valid certificate, avoid untrusted public Wi-Fi for sensitive tasks, and use a VPN when needed.
+  coinValue: 1
+  tokenValue: 5
+  completionBonus: 110
+  parTimeSeconds: 170
+  maxLives: 3
+  requiredTokens: 0
+  requiredCheckpoints: 1
+  requiredChallenges: 0
+  isFinalLevel: 0
+  killY: -12
+  nextSceneName: Level08_Rootkit

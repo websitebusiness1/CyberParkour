@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf84ef0badd658cb1919bfedd1784a1, type: 3}
+  m_Name: Level04_Spyware
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
+  levelNumber: 4
+  threatName: Spyware
+  levelTitle: The Surveillance Corridor
+  objective: Cross the corridor without being detected and reach the protected memory sector.
+  learningSummary: Spyware secretly watches what you do and collects information without your permission.
+  learningTip: Install apps only from trusted sources, review the permissions they ask for, and keep security software up to date.
+  coinValue: 1
+  tokenValue: 5
+  completionBonus: 80
+  parTimeSeconds: 170
+  maxLives: 3
+  requiredTokens: 0
+  requiredCheckpoints: 1
+  requiredChallenges: 0
+  isFinalLevel: 0
+  killY: -12
+  nextSceneName: Level05_Trojan

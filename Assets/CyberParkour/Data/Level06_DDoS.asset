@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf84ef0badd658cb1919bfedd1784a1, type: 3}
+  m_Name: Level06_DDoS
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
+  levelNumber: 6
+  threatName: DDoS Attack
+  levelTitle: The Overloaded Network
+  objective: Cross the overloaded network and activate the protected server gateway.
+  learningSummary: A DDoS attack floods a service with traffic from many sources so real users can't get through.
+  learningTip: Services defend with traffic filtering, rate limiting and extra capacity. The goal is keeping systems available.
+  coinValue: 1
+  tokenValue: 5
+  completionBonus: 100
+  parTimeSeconds: 180
+  maxLives: 3
+  requiredTokens: 0
+  requiredCheckpoints: 1
+  requiredChallenges: 0
+  isFinalLevel: 0
+  killY: -12
+  nextSceneName: Level07_MITM

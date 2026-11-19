@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/MainMenu.unity
+    guid: 31fd33bcad388d4479cf61fbc303a221
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/LevelSelection.unity
+    guid: cc68af41d2f9223489b5abb9c4961b83
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/CharacterSelection.unity
+    guid: 9e56ebdbec296d94a8759f99e03e08d9
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/CybersecurityLearningCenter.unity
+    guid: 555820fbfab8ba34cb2f58d7868bd8a1
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/CybersecurityKnowledgeTest.unity
+    guid: 030ce327bf4185f4981c95cd5cb04132
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/Level01_Malware.unity
+    guid: e1cf4be8d35d5d040a08085b72095c57
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/Level02_Phishing.unity
+    guid: 55116c6de1c6cef44b3c298e280c32af
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/Level03_Ransomware.unity
+    guid: d11e301b2a2a7f745bbc63214ee229db
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/Level04_Spyware.unity
+    guid: 57c282855ea261945b3100483d440e6c
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/Level05_Trojan.unity
+    guid: c6a9a764e39dd5d4faf947e9a66c0009
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/Level06_DDoS.unity
+    guid: f5eb4b9d55af5ad40abb2b0bff9fb6bb
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/Level07_MITM.unity
+    guid: a4289fa416a810049b4c9bd3e6777776
+  - enabled: 1
+    path: Assets/CyberParkour/Scenes/Level08_Rootkit.unity
+    guid: 6a453d8598fc38940a34e7a39b16ae0a
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
